@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-
 const About = () => {
   return (
     <div className="about-section">
@@ -13,10 +12,15 @@ const About = () => {
 
         <h3>COVID-19 Related Images</h3>
        <div className="image-grid">
+
+  <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image hover:scale=1.5" />
   <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />
   <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />
   <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />
   <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />
+  
+  <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />
+  
   <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />
   
   <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Microscopic virus image" />

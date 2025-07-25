@@ -71,17 +71,17 @@ const Dashboard = () => {
           globalData.deaths || 0,
           globalData.recovered || 0,
         ],
-        backgroundColor: ['#1e88e5', '#e53935', '#43a047'],
+        backgroundColor: ['#1e88e5', '#e4ddddff', '#43a047'],
         borderWidth: 1,
       },
     ],
   };
 
   return (
-    <div className="dashboard-container">
+    <div className="dashboard-container ">
       <div className="header">
-        <h1>🌍 COVID-19 Dashboard</h1>
-        <div className="controls">
+        <h1>git init </h1>
+        <div className="controls ">
           {/* <input
             type="text"
             placeholder="Search country..."
@@ -102,7 +102,7 @@ const Dashboard = () => {
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <div className="main-content">
+        <div className="main-content m-20">
           <div className="chart-area">
             <Pie data={chartData} />
           </div>
