@@ -22,12 +22,13 @@
 .controls {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  /* gap: 5px; */
   color: black;
   /* margin-bottom: 30px; */
 }
 .controls input, .controls select {
   padding: 8px 10px;
+  max-width: 200px;
   font-size: 1rem;
   border-radius: 4px;
   border: 1px solid #af2e2e;

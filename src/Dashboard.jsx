@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Pie } from 'react-chartjs-2';
 import 'chart.js/auto';
 import './Dashboard.css';
+import images from './assets/images.jpg'; // Adjust the path as necessary
 
 const Dashboard = () => {
   const [globalData, setGlobalData] = useState({});
@@ -80,6 +81,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container ">
       <div className="header">
+        
         <h1>COVID‑19 Data Visualization </h1>
         <div className="controls ">
           {/* <input
@@ -88,6 +90,7 @@ const Dashboard = () => {
             value={searchTerm}
             onChange={handleSearch}
           /> */}
+          <div>
           <select value={selectedCountry} onChange={handleCountryChange}>
             <option value="all">🌍 select country</option>
             {filteredCountries.map(country => (
@@ -96,6 +99,7 @@ const Dashboard = () => {
               </option>
             ))}
           </select>
+          </div>
         </div>
       </div>
 
