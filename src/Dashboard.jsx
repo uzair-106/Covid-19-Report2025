@@ -80,7 +80,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container ">
       <div className="header">
-        <h1>git init </h1>
+        <h1>COVID‑19 Data Visualization </h1>
         <div className="controls ">
           {/* <input
             type="text"

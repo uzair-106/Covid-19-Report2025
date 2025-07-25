@@ -6,9 +6,9 @@ function Footer() {
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4"><a href="#" className="hover:underline">About</a></li>
-                <li className="mb-4"><a href="#" className="hover:underline">Careers</a></li>
-                <li className="mb-4"><a href="#" className="hover:underline">Brand Center</a></li>
+                <li className="mb-4"><a href="/About" className="hover:underline">About</a></li>
+                <li className="mb-4"><a href="/Home" className="hover:underline">Cases</a></li>
+                <li className="mb-4"><a href="#" className="hover:underline">COVID‑19 </a></li>
                 <li className="mb-4"><a href="#" className="hover:underline">Blog</a></li>
               </ul>
             </div>
@@ -16,9 +16,9 @@ function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help Center</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4"><a href="#" className="hover:underline">Discord Server</a></li>
-                <li className="mb-4"><a href="#" className="hover:underline">Twitter</a></li>
-                <li className="mb-4"><a href="#" className="hover:underline">Facebook</a></li>
-                <li className="mb-4"><a href="#" className="hover:underline">Contact Us</a></li>
+                <li className="mb-4"><a href="/Twitter" className="hover:underline">Twitter</a></li>
+                <li className="mb-4"><a href="/facebook.com" className="hover:underline">Facebook</a></li>
+                <li className="mb-4"><a href="/Contact" className="hover:underline">Contact Us</a></li>
               </ul>
             </div>
             <div>
@@ -39,9 +39,10 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+          <div >
+          <div className="px-14 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
             <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-              © 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
+              © 2023 <a href="https://flowbite.com/" className="hover:underline">Covid @ 19</a>. All Rights Reserved.
             </span>
             <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
               <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
@@ -51,6 +52,7 @@ function Footer() {
                 <span className="sr-only">Facebook page</span>
               </a>
             </div>
+          </div>
           </div>
         </div>
       </footer>
